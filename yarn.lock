@@ -12,9 +12,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hamitzor/rtaudio.js@npm:1.0.5":
-  version: 1.0.5
-  resolution: "@hamitzor/rtaudio.js@npm:1.0.5"
+"@hamitzor/rtaudio.js@npm:1.0.7":
+  version: 1.0.7
+  resolution: "@hamitzor/rtaudio.js@npm:1.0.7"
   dependencies:
     bindings: "npm:^1.5.0"
     cmake-js: "npm:^7.2.1"
@@ -22,7 +22,8 @@ __metadata:
     node-gyp: "npm:latest"
     prebuild: "npm:^12.1.0"
     prebuild-install: "npm:^7.1.1"
-  checksum: 2432471d7ded9674817d0046247e4c4c99fc9f39a4ada704bfc438674f0ebab65bd3ff35ecea4d72d10aa138bde29e46482e47e15a82f90aeace2f5e1fb5bc82
+    typescript: "npm:^5.3.3"
+  checksum: c034b958d0b48fa340cec819a609436693619049f71e34471d9753c4f77e2d9ad962bc16d721653d9eac94201460b037cfd4c7dc02905c48644c7d253ba76ff3
   languageName: node
   linkType: hard
 
@@ -2779,7 +2780,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "rtaudio.js-examples@workspace:."
   dependencies:
-    "@hamitzor/rtaudio.js": "npm:1.0.5"
+    "@hamitzor/rtaudio.js": "npm:1.0.7"
     ansi: "npm:^0.3.1"
     console-clear: "npm:^1.1.1"
     inquirer: "npm:^9.2.12"
@@ -3253,6 +3254,26 @@ __metadata:
   version: 2.7.2
   resolution: "type@npm:2.7.2"
   checksum: 84c2382788fe24e0bc3d64c0c181820048f672b0f06316aa9c7bdb373f8a09f8b5404f4e856bc4539fb931f2f08f2adc4c53f6c08c9c0314505d70c29a1289e1
+  languageName: node
+  linkType: hard
+
+"typescript@npm:^5.3.3":
+  version: 5.3.3
+  resolution: "typescript@npm:5.3.3"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: e33cef99d82573624fc0f854a2980322714986bc35b9cb4d1ce736ed182aeab78e2cb32b385efa493b2a976ef52c53e20d6c6918312353a91850e2b76f1ea44f
+  languageName: node
+  linkType: hard
+
+"typescript@patch:typescript@npm%3A^5.3.3#optional!builtin<compat/typescript>":
+  version: 5.3.3
+  resolution: "typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 1d0a5f4ce496c42caa9a30e659c467c5686eae15d54b027ee7866744952547f1be1262f2d40de911618c242b510029d51d43ff605dba8fb740ec85ca2d3f9500
   languageName: node
   linkType: hard
 
