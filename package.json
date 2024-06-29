@@ -1,6 +1,6 @@
 {
   "name": "rtaudio.js-examples",
-  "version": "1.0.13",
+  "version": "1.1.0",
   "description": "Some examples showcasing @hamitzor/rtaudio.js-examples",
   "repository": {
     "type": "git",
@@ -12,9 +12,8 @@
     "url": "https://github.com/hamitzor/rtaudio.js-examples/issues"
   },
   "homepage": "https://github.com/hamitzor/rtaudio.js-examples#readme",
-  "packageManager": "yarn@4.0.2",
   "dependencies": {
-    "@hamitzor/rtaudio.js": "1.0.13",
+    "@hamitzor/rtaudio.js": "1.1.0",
     "ansi": "^0.3.1",
     "console-clear": "^1.1.1",
     "inquirer": "^9.2.12"
