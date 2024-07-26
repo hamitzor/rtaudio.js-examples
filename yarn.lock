@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.3.tgz#555193ab2e3bb3b6adc3d551c9c030d9e860daf6"
   integrity sha512-k2Ty1JcVojjJFwrg/ThKi2ujJ7XNLYaFGNB/bWT9wGR+oSMJHMa5w+CUq6p/pVrKeNNgA7pCqEcjSnHVoqJQFw==
 
-"@hamitzor/rtaudio.js@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@hamitzor/rtaudio.js/-/rtaudio.js-1.1.0.tgz#511f86a1ca3fb6a93f7a009c7f93ad748864487d"
-  integrity sha512-+4OrDTFjW6+pkEzpNL/9KFdEoi/arqtmpzsRKmf/bXt9/079l9AhsruKeFGK4hTySvguVmn7iStlTXS2vJdi3w==
+"@hamitzor/rtaudio.js@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@hamitzor/rtaudio.js/-/rtaudio.js-1.2.0.tgz#2d1ae8f4fcb8d7fed5ec944632eb6acc816051b0"
+  integrity sha512-jT6rQtRaccm18Ow9GER9c+bgEpfhY8jSKSHa7salJbymmxdJy1DPMPSZZr0lGSix0I83h7SlhODGfvg20Kw/6w==
   dependencies:
     bindings "^1.5.0"
     cmake-js "^7.2.1"
