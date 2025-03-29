@@ -10,7 +10,6 @@
 // change `sampleRate` and `RtAudioFormat.RTAUDIO_SINT16` below.
 
 const { RtAudio, RtAudioFormat, RtAudioErrorType, RtAudioStreamStatus } = require('@hamitzor/rtaudio.js')
-const consoleClear = require('console-clear')
 const { bufferFrames, channels, frameSize, sampleRate, version } = require('./common')
 
 const apis = RtAudio.getCompiledApi()
@@ -84,7 +83,6 @@ process.on('SIGINT', () => {
 
 // Extra: print some info and statistics
 
-consoleClear()
 console.log(`Echo app\n`)
 console.log(`RtAudio.js version\t${version}`)
 console.log(`RTAudio version\t\t${RtAudio.getVersion()}\n`)
